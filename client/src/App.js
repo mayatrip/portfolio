@@ -1,4 +1,6 @@
-import logo from './logo.svg';
+import React, { useState, useEffect } from "react";
+import { Route, Routes } from "react-router-dom";
+
 import './App.css';
 import NavBar from './components/NavBar';
 
