@@ -1,0 +1,14 @@
+.NavBar{
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.NavBar a {
+    text-decoration: none;
+    color: black;
+}
+
+.NavBar a:hover {
+    color:black;
+    text-shadow: 0.5px 0.5px 1px black;
+}
